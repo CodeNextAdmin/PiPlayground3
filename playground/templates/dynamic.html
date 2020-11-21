@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link href= "https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+	  <div class="container">
+        <h1>Dynamic Demo</h1>
+        <h2>{{greeting}}</h2>
+        <h2>Friends: </h2>
+        {% for friend in friends %}
+        <p>{{friend}}</p>
+        {% endfor %}
+	  </div> 
+  </body>
+</html>
+
